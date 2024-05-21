@@ -22,6 +22,6 @@ function readFile(){
     })
 }
 
-writeFile('Hi there').then(readFile).catch(function(err){
+writeFile('').then(readFile).catch(function(err){
     console.log(err);
 })
